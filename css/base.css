@@ -1,0 +1,63 @@
+.w1350{
+	width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+.header{
+	background:#fff;
+	line-height: 80px;
+}
+.header>div .logo{
+	float: left;
+	padding-top: 14px;
+}.header>div ul {
+	float: right;
+	margin-right: 110px;
+}
+.header>div ul li{
+	float: left;
+	
+}.header>div ul li+li{
+	margin-left: 44px;
+}
+.header>div ul li a{
+	color: #333;
+	line-height: 90px;
+	font-size: 16px;
+}
+.banner a,.banner img{
+	display: block;
+	width: 100%;
+}
+.footer{
+	background:#242424;
+	color:#8f8f8f;
+	font-size: 14px;
+	
+}
+.footer>div{
+	padding-left: 105px;
+	padding-right: 60px;
+}
+.footer a{
+	color:#8f8f8f;
+}
+.footer .leftpart{
+	float: left;
+	width: 499px;
+	
+}.footer .leftpart .logo{
+	display: block;
+	height: 100px;padding-top: 25px;
+	border-bottom: 1px solid #474747;
+}.footer .leftpart .ftnav {
+	margin-bottom: 30px;
+}
+.footer .leftpart .ftnav li{
+	float: left;
+	margin-top: 12px;
+	
+}.footer .leftpart .ftnav li+li{
+	margin-left: 30px;
+}
