@@ -4,6 +4,9 @@
 	margin-right: auto;
 	max-width: 100%;
 }
+.mt20{
+	margin-top: 20px;
+}
 .header{
 	background:#fff;
 	line-height: 80px;
@@ -60,4 +63,27 @@
 	
 }.footer .leftpart .ftnav li+li{
 	margin-left: 30px;
+}
+.footer  i{
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	vertical-align: top;
+}
+.footer  i.icon1{
+	background-image: url(../img/icon1.png);
+}
+.footer  i.icon2{
+	background-image: url(../img/icon2.png);
+}
+.footer  i.icon3{
+	background-image: url(../img/icon3.png);
+}
+.footer  i.icon4{
+	background-image: url(../img/icon4.png);
+}
+.footer  i.icon5{
+	background-image: url(../img/icon5.png);
+}.footer  i.icon6{
+	background-image: url(../img/icon6.png);
 }
