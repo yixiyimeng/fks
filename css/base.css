@@ -1,89 +1,284 @@
-.w1350{
+.link {
+	color: #2494a0;
+}
+
+.w1350 {
 	width: 1350px;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 100%;
 }
-.mt20{
+
+.mt20 {
 	margin-top: 20px;
 }
-.header{
-	background:#fff;
+
+.imgbox img {
+	display: block;
+	width: 100%;
+}
+
+.header {
+	background: #fff;
 	line-height: 80px;
 }
-.header>div .logo{
+
+.header>div .logo {
 	float: left;
 	padding-top: 14px;
-}.header>div ul {
+}
+
+.header>div ul {
 	float: right;
 	margin-right: 110px;
 }
-.header>div ul li{
+
+.header>div ul li {
 	float: left;
-	
-}.header>div ul li+li{
+
+}
+
+.header>div ul li+li {
 	margin-left: 44px;
 }
-.header>div ul li a{
+
+.header>div ul li a {
 	color: #333;
 	line-height: 90px;
 	font-size: 16px;
 }
-.banner a,.banner img{
+
+.header>div ul li a.active {
+	color: #2494a0;
+}
+
+.banner a,
+.banner img {
 	display: block;
 	width: 100%;
 }
-.footer{
-	background:#242424;
-	color:#8f8f8f;
+
+.footer {
+	background: #242424;
+	color: #8f8f8f;
 	font-size: 14px;
-	
+
 }
-.footer>div{
+
+.footer>div {
 	padding-left: 105px;
 	padding-right: 60px;
 }
-.footer a{
-	color:#8f8f8f;
+
+.footer a {
+	color: #8f8f8f;
 }
-.footer .leftpart{
+
+.footer .leftpart {
 	float: left;
 	width: 499px;
-	
-}.footer .leftpart .logo{
+
+}
+
+.footer .leftpart .logo {
 	display: block;
-	height: 100px;padding-top: 25px;
+	height: 100px;
+	padding-top: 25px;
 	border-bottom: 1px solid #474747;
-}.footer .leftpart .ftnav {
+}
+
+.footer .leftpart .ftnav {
 	margin-bottom: 30px;
 }
-.footer .leftpart .ftnav li{
+
+.footer .leftpart .ftnav li {
 	float: left;
 	margin-top: 12px;
-	
-}.footer .leftpart .ftnav li+li{
+
+}
+
+.footer .leftpart .ftnav li+li {
 	margin-left: 30px;
 }
-.footer  i{
+
+.footer .rightpart {
+	float: right;
+	max-width: 400px;
+}
+
+.footer .rightpart .title {
+	height: 100px;
+	padding-top: 75px;
+	border-bottom: 1px solid #474747;
+	margin-bottom: 20px;
+}
+
+.footer .rightpart .imgbox {
+	margin-right: 50px;
+}
+
+.footer .rightpart i {
+	margin-right: 15px;
+}
+
+.footer i {
 	display: inline-block;
 	height: 28px;
 	width: 28px;
 	vertical-align: top;
 }
-.footer  i.icon1{
+
+.footer i.icon1 {
 	background-image: url(../img/icon1.png);
 }
-.footer  i.icon2{
+
+.footer i.icon2 {
 	background-image: url(../img/icon2.png);
 }
-.footer  i.icon3{
+
+.footer i.icon3 {
 	background-image: url(../img/icon3.png);
 }
-.footer  i.icon4{
+
+.footer i.icon4 {
 	background-image: url(../img/icon4.png);
 }
-.footer  i.icon5{
+
+.footer i.icon5 {
 	background-image: url(../img/icon5.png);
-}.footer  i.icon6{
+}
+
+.footer i.icon6 {
 	background-image: url(../img/icon6.png);
+}
+
+.equlist li a {
+	display: block;
+	text-align: center;
+	color: #333;
+	font-size: 18px;
+	line-height: 24px;
+	padding-bottom: 100px;
+}
+
+.equlist li a .name {
+	font-size: 27px;
+	margin-top: 30px;
+}
+
+.equlist li a .imgbox {
+	border: 1px solid #eee;
+	height: 240px;
+}
+
+.equlist li a .imgbox img {
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.equlist li a .line {
+	display: block;
+	margin: 20px auto;
+	height: 2px;
+	width: 60px;
+	background: #2494A0;
+}
+
+.page {
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+
+.page a {
+	height: 28px;
+	border: 1px solid #eee;
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 26px;
+	margin: 0 5px;
+}
+
+.page a.btn,
+.page a:hover,
+.page a.active {
+	color: #fff;
+	background: #2494a0;
+	border-color: #2494a0;
+}
+
+.page input {
+	height: 28px;
+	border: 1px solid #eee;
+	width: 30px;
+	text-align: center;
+	margin: 0 5px;
+}
+
+/* 科普知识 */
+.knowledgelist {
+	margin: 60px 65px 80px;
+}
+
+.knowledgelist .flex,.newlist .flex {
+	padding: 40px 0;
+	border-bottom: 1px solid #eee;
+	color: #666;
+	font-size: 16px;
+	line-height: 28px;
+
+}.newlist .flex{
+	padding: 80px 0;
+}
+
+.knowledgelist .flex .imgbox,.newlist .flex .imgbox {
+	width: 302px;
+	margin-right: 30px;
+}
+.newlist{
+	margin: 60px 65px;
+}
+.newlist .flex .imgbox{
+	width: 505px;
+}
+
+.knowledgelist .flex .name,
+.newlist .flex .name{
+	color: #333;
+	font-size: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+.newlist .flex .name{
+	margin-top: 0;
+}
+.knowledgelist .flex p,
+.newlist .flex p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.knowledgelist .flex .time,
+.newlist .flex .time{
+	margin-top: 40px;
+	font-size: 18px;
+}
+.knowledgelist .flex .more,
+.newlist .flex .more{
+	color: #fff;
+	font-size: 16px;
+	line-height: 36px;
+	width: 120px;
+	background: #333;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
 }

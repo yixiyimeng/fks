@@ -1,0 +1,460 @@
+.aboutbox,
+.newsbox {
+	position: relative;
+	padding-top: 128px;
+}
+
+.aboutbox .aboutmenu,
+.newsbox .newsboxmenu {
+	height: 80px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	position: absolute;
+	top: 0;
+	background: #fff;
+	left: 68px;
+	right: 68px;
+	transform: translateY(-50%);
+}
+
+.aboutbox .aboutmenu a,
+.newsbox .newsboxmenu a {
+	float: left;
+	width: 20%;
+	line-height: 80px;
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+}
+
+.newsbox .newsboxmenu a {
+	width: 50%;
+}
+
+.newsbox.hynewsbox .newsboxmenu a {
+	width: 16.66%;
+}
+
+.aboutbox .aboutmenu a.active,
+.newsbox .newsboxmenu a.active {
+	background: #00bbcf;
+	color: #fff;
+}
+
+.about-bd .title,
+.friendbox .title,
+.newsbox .title {
+	text-align: center;
+	color: #2494a0;
+	font-size: 34px;
+	padding-bottom: 10px;
+
+}
+
+.about-bd .title p:last-child,
+.friendbox .title p:last-child,
+.newsbox .title p:last-child {
+	position: relative;
+	color: #666;
+	font-size: 18px;
+	line-height: 1;
+}
+
+.about-bd .title.title-bt p:last-child:after,
+.friendbox .title p:last-child:after,
+.newsbox .title p:last-child:after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 200px;
+	position: absolute;
+	background: #666;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.companyinfo {
+	margin-top: 60px;
+	font-size: 16px;
+	color: #333;
+	line-height: 28px;
+	padding-left: 68px;
+	padding-right: 68px;
+}
+
+.companyinfo p {
+	text-indent: 2em;
+}
+
+.companyinfo img {
+	display: block;
+	margin-bottom: 40px;
+}
+
+.servicebox ul {
+	margin: 55px -15px;
+}
+
+.servicebox ul li {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+}
+
+.servicebox ul li>a {
+	display: block;
+	height: 260px;
+	position: relative;
+}
+
+.servicebox ul li>a>div:first-child {
+	border: 1px solid #eee;
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+	height: 100%;
+	padding-top: 65px;
+}
+
+.servicebox ul li>a>div:first-child i {
+	display: block;
+	height: 69px;
+	width: 59px;
+	background: url(../img/icon11.png);
+	margin: 0 auto 17px;
+}
+
+.servicebox ul li>a>div.tip {
+	color: #fff;
+	font-size: 16px;
+	line-height: 28px;
+	background: #2494a0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 30px 20px;
+	opacity: 0;
+	transition: all .3s;
+}
+
+.servicebox ul li>a:hover>div.tip {
+	opacity: 1;
+}
+
+.servicebox ul li>a>div.tip .name {
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.servicebox ul li>a>div.tip .name:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 168px;
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #fff;
+	position: absolute;
+}
+
+.honorbox {
+	background: #282828;
+	padding-left: 65px;
+	padding-right: 65px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+
+.honorbox .honorlist {
+	background: #2494a0;
+	padding: 20px;
+	position: relative;
+	top: -60px;
+}
+
+.honorbox .honorlist>.imgbox {
+	width: 440px;
+	background: #fff;
+	padding: 30px 30px 15px;
+}
+
+.honorbox .honorlist>.imgbox p {
+	color: #333;
+	font-size: 26px;
+	margin-top: 20px;
+}
+
+.honorbox .honorlist .flex-1 {
+	margin: -15px -10px -15px 3px;
+}
+
+.honorbox .honorlist .flex-1 .imgbox {
+	float: left;
+	width: 33.33%;
+	padding: 15px 14px;
+}
+
+.honorbox .tablink {
+	text-align: center;
+}
+
+.honorbox .tablink a {
+	display: inline-block;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	width: 250px;
+	height: 80px;
+	line-height: 80px;
+	background: #949494;
+	margin: -25px 45px 35px;
+}
+
+.honorbox .tablink a:hover,
+.honorbox .tablink a.active {
+	background: #2494a0;
+
+}
+
+.honorbox .tablink a img,
+.honorbox .tablink a span {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+/* 企业文化 */
+.conceptsbox {
+	background: url(../img/bg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 14px 65px;
+	margin: 60px 0 20px;
+}
+
+.conceptsbox .concepts-item {
+	background: #fff;
+	height: 220px;
+	width: 592px;
+	float: right;
+	margin: 14px 0;
+	padding: 20px 15px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #666;
+	line-height: 28px;
+}
+
+.conceptsbox .concepts-item:nth-child(odd) {
+	float: left;
+}
+
+.conceptsbox .concepts-item .name {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.conceptsbox .concepts-item .name i {
+	display: inline-block;
+	width: 27px;
+	height: 31px;
+	background: url(../img/icon15.png);
+	color: #fff;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 10px;
+}
+
+.conceptsbox .linklist {
+	width: 350px;
+}
+
+.conceptsbox .linklist a {
+	display: inline-block;
+}
+
+.conceptsbox .linklist a:nth-child(3n+2) {
+	margin: 0 50px;
+}
+
+.equbox,
+.teambox {
+	margin: 65px 65px 80px;
+}
+
+.equbox .equlist {
+	margin: 0 -15px;
+}
+
+.equlist li {
+	float: left;
+	width: 33.33%;
+	padding: 0 15px;
+}
+
+.teambox .teamlist {
+	margin: 0 -15px 30px;
+}
+
+.teambox .teamlist li {
+	width: 33.33%;
+	float: left;
+	padding: 0 15px;
+	margin-bottom: 30px;
+	overflow: hidden;
+
+}
+
+.teambox .teamlist li a {
+	position: relative;
+	display: block;
+}
+
+.teambox .teamlist li a .tip {
+	position: absolute;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	font-size: 16px;
+	line-height: 28px;
+	top: 417px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	transition: all .3s;
+}
+
+.teambox .teamlist li a:hover .tip {
+	padding-top: 90px;
+	top: 0
+}
+
+.teambox .teamlist li a .tip .name {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.teambox .teamlist li a .tip p {
+	margin-top: 30px;
+}
+
+.friendbox {
+	margin: 80px 65px 55px;
+}
+
+.friendbox .friendlist {
+	margin: 60px -11px 80px;
+}
+
+.friendbox .friendlist a {
+	float: left;
+	width: 16.66%;
+	padding: 0 11px;
+	margin-bottom: 22px;
+}
+
+.friendbox .friendlist a .imgbox {
+	display: block;
+	border: 1px solid #eee;
+}
+
+/* 售后服务 */
+.lcimgbox {
+	margin: 60px auto 80px;
+	width: 945px;
+}
+
+/* 新闻资讯 */
+.newsbox {
+	padding-bottom: 60px;
+}
+
+.newsinfo {
+	font-size: 16px;
+	line-height: 28px;
+	color: #666;
+	margin: 0 65px;
+}
+
+.newsinfo .newsinfo-hd {
+	text-align: center;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+}
+
+.newsinfo .newsinfo-hd .time {
+	color: #666;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.newsinfo .newsinfo-bd {
+	padding-top: 55px;
+	padding-bottom: 20px;
+}
+
+.newsinfo .newsinfo-ft {
+	border-top: 1px solid #eee;
+	margin: 0 0 20px;
+	padding-top: 20px;
+}
+
+.newsinfo .newsinfo-ft a {
+	display: block;
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.hynewsbox .newsbox-bd {
+	margin: 55px 65px 20px;
+}
+
+.hynewsbox .newsbox-bd .hynewlist {
+	margin: 0 -15px 60px;
+}
+
+.hynewsbox .newsbox-bd .hynewlist>div {
+	width: 33.33%;
+	padding: 0 15px;
+	margin-bottom: 30px;
+	
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	line-height: 28px;
+	float: left;
+}
+.hynewsbox .newsbox-bd .hynewlist>div a{
+	background: #fbfbfb;
+	display: block;
+	padding-bottom: 30px;
+}
+.hynewsbox .newsbox-bd .hynewlist>div .name {
+	font-size: 27px;
+	color: #333;
+	margin: 20px auto;
+}
+
+.hynewsbox .newsbox-bd .hynewlist>div .line {
+	height: 2px;
+	width: 60px;
+	margin: 0 auto 20px;
+	background: #2494a0;
+}
+
+.hynewsbox .newsbox-bd .hynewlist>div p {
+	margin: 0 50px;
+	overflow: hidden;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
