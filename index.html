@@ -29,9 +29,20 @@
 		</div>
 		<!-- banner -->
 		<div class="banner">
-			<a href="">
-				<img src="img/banner.jpg" alt="">
-			</a>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href="">
+							<img src="img/banner.jpg" alt="">
+						</a></div>
+					<div class="swiper-slide"><a href="">
+							<img src="img/banner.jpg" alt="">
+						</a></div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+			
+
 		</div>
 		<!-- 业务领域 -->
 		<section class="modbox area w1350">
@@ -355,7 +366,21 @@
 </html>
 <script src="js/swiper.min.js"></script>
 <script>
-	var swiper = new Swiper('.swiper-container', {
+	var bannerswiper = new Swiper('.banner .swiper-container', {
+		slidesPerView: 1,
+		// slidesPerGroup: 1,
+		// freeMode: true,
+		loop: true,
+		autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+	var swiper = new Swiper('.friend .swiper-container', {
 		slidesPerView: 6,
 		slidesPerGroup: 6,
 		spaceBetween: 28,
