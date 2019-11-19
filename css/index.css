@@ -37,7 +37,9 @@
 	line-height: 59px;
 	display: block;
 }
-
+.modbox .more:hover{
+	background: #2494a0;
+}
 .modbox.area .modbox-hd {
 	height: 320px;
 }
@@ -64,8 +66,11 @@
 	font-size: 26px;
 	text-align: center;
 	line-height: 310px;
+	transition: all .3s;
 }
-
+.modbox.area .modbox-bd ul li:hover a .tip{
+	background: rgba(0, 0, 0, 0);
+}
 .aboutus {
 	margin-top: 125px;
 	background: url(../img/bg.png) no-repeat right center;
@@ -228,7 +233,9 @@
 	width: 25%;
 	padding: 0 16px;
 }
-
+.modbox.equipment .equlist li:hover .imgbox img{
+	transform: scale(1.1,1.1);
+}
 .ourteam {
 	background: #333;
 	color: #fff;
@@ -287,7 +294,14 @@
 	display: block;
 	background: #fbfbfb;
 }
-
+.modbox.news .newslist li a .imgbox{
+	overflow: hidden;
+}.modbox.news .newslist li a .imgbox img{
+transition: all .3s;
+}
+.modbox.news .newslist li:hover a .imgbox img{
+	transform: scale(1.1,1.1);
+}
 .modbox.news .newslist li a .info {
 	padding: 30px 20px 55px;
 	font-size: 18px;
