@@ -118,6 +118,7 @@
 	position: relative;
 	height: 486px;
 	padding-left: 65px;
+	overflow: hidden;
 }
 
 .aboutus.modbox .modbox-ft .youshi {
