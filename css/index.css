@@ -53,6 +53,7 @@
 .modbox.area .modbox-bd ul li img {
 	display: block;
 	position: relative;
+	width: 100%;
 }
 
 .modbox.area .modbox-bd ul li a .tip {

@@ -92,8 +92,11 @@
 .companyinfo img {
 	display: block;
 	margin-bottom: 40px;
+	width: 100%;
 }
-
+.servicebox {
+	overflow: hidden;
+}
 .servicebox ul {
 	margin: 55px -15px;
 }
@@ -348,6 +351,7 @@
 
 .friendbox {
 	margin: 80px 65px 55px;
+	min-width: 1350px;
 }
 
 .friendbox .friendlist {

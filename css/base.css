@@ -6,7 +6,7 @@
 	width: 1350px;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 100%;
+	min-width: 1350px;
 }
 
 .mt20 {
@@ -51,7 +51,9 @@
 .header>div ul li a.active {
 	color: #2494a0;
 }
-
+.banner{
+	min-width: 1350px;
+}
 .banner a,
 .banner img {
 	display: block;
@@ -62,6 +64,7 @@
 	background: #242424;
 	color: #8f8f8f;
 	font-size: 14px;padding-bottom: 20px;
+	min-width: 1350px;
 
 }
 
