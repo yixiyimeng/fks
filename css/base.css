@@ -28,28 +28,53 @@
 	padding-top: 14px;
 }
 
-.header>div ul {
+.header>div>ul {
 	float: right;
-	margin-right: 110px;
+	margin-top: 4px;
+	/* margin-right: 110px; */
 }
 
-.header>div ul li {
+.header>div>ul>li {
 	float: left;
-
+	position: relative;
+	width: 110px;
+	text-align: center;
+}
+.header>div>ul>li:hover .submenu{
+	display: block;
+}
+.header>div>ul>li+li {
+	/* margin-left: 44px; */
 }
 
-.header>div ul li+li {
-	margin-left: 44px;
-}
-
-.header>div ul li a {
+.header>div>ul>li a {
 	color: #333;
 	line-height: 90px;
 	font-size: 16px;
+	
 }
 
-.header>div ul li a.active {
+.header>div>ul>li>a.active {
 	color: #2494a0;
+}
+.header>div .submenu{
+	position: absolute;
+	top: 90px;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	background: #fff;
+	display: none;
+	box-shadow: 0 6px 6px rgba(0,0,0,.3);
+}
+.header>div .submenu li,.header>div .submenu li a{
+	line-height: 60px;
+	display: block;
+}
+.header>div .submenu li a:hover,
+.header>div .submenu li a.active{
+	background: #2494a0;
+	color: #fff;
 }
 .banner{
 	min-width: 1350px;
